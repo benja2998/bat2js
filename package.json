@@ -29,7 +29,8 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"No tests yet\"",
-    "build": "tsc"
+    "build": "tsc",
+    "postbuild": "node src/postbuild.js"
   },
   "bin": {
     "bat2js": "dist/index.js"
