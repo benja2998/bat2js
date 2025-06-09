@@ -33,7 +33,7 @@
     "postbuild": "node src/postbuild.js"
   },
   "bin": {
-    "bat2js": "./dist/index.js"
+    "bat2js": "dist/index.js"
   },
   "devDependencies": {
     "@types/node": "^22.15.30",
