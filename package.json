@@ -1,6 +1,6 @@
 {
   "name": "bat2js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Batch to JavaScript compiler",
   "keywords": [
     "batch",
