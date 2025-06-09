@@ -31,7 +31,6 @@
     "test": "echo \"No tests\"",
     "build": "tsc",
     "postbuild": "node src/postbuild.js",
-    "prepublishOnly": "npm run build"
   },
   "bin": {
     "bat2js": "dist/index.js"
