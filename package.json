@@ -1,6 +1,6 @@
 {
   "name": "bat2js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Batch to JavaScript compiler",
   "keywords": [
     "batch",
@@ -31,7 +31,7 @@
     "test": "echo \"No tests\"",
     "build": "tsc",
     "postbuild": "node src/postbuild.js",
-	"prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "bin": {
     "bat2js": "dist/index.js"
