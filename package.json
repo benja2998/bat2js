@@ -28,9 +28,8 @@
   "type": "commonjs",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"No tests\"",
-    "build": "tsc",
-    "postbuild": "node src/postbuild.js"
+    "test": "echo \"No tests yet\"",
+    "build": "tsc"
   },
   "bin": {
     "bat2js": "dist/index.js"

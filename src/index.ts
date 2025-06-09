@@ -104,8 +104,6 @@ console.time("Compilation Time");
 tokenizedContents.forEach(([token, content]) => {
 	console.log(`Token: ${token}, Content: ${content}`);
 	console.log(`Compiling ${token} with contents: ${content}...`);
-	// Start a timer
-	const startTime = Date.now();
 
 	// Compile the token
 	
