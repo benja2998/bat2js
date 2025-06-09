@@ -30,7 +30,7 @@
   "scripts": {
     "test": "echo \"No tests\"",
     "build": "tsc",
-    "postbuild": "node src/postbuild.js",
+    "postbuild": "node src/postbuild.js"
   },
   "bin": {
     "bat2js": "dist/index.js"
