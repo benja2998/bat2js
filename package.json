@@ -1,0 +1,33 @@
+{
+  "name": "bat2js",
+  "version": "0.0.0",
+  "description": "Batch to JavaScript compiler",
+  "keywords": [
+    "batch",
+    "batchfile",
+    "js",
+    "javascript",
+    "transpile",
+    "transpiler",
+    "compile",
+    "compiler",
+    "typescript",
+    "ts",
+    "bat"
+  ],
+  "homepage": "https://github.com/benja2998/bat2js#readme",
+  "bugs": {
+    "url": "https://github.com/benja2998/bat2js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benja2998/bat2js.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "benja2998",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"No tests\""
+  }
+}
