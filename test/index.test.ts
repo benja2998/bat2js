@@ -38,7 +38,6 @@ describe('tokens_to_javascript()', () => {
 
 		const fileContents = fs.readFileSync(filePath, 'utf8');
 
-		// Provide an empty options object as the second argument (adjust as needed)
 		const compiledContents = tokens_to_javascript(tokenize(fileContents), {});
 
 		console.log(compiledContents);

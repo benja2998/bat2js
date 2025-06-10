@@ -31,5 +31,5 @@ rem Output text to the console
 echo %hi% %world%
 echo Goodbye world!
 
-exit
+pause
 ```

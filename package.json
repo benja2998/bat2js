@@ -31,7 +31,8 @@
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "test": "jest --coverage",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "program": "npm run build && node . hello.bat"
   },
   "bin": {
     "bat2js": "dist/index.js"
