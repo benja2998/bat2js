@@ -26,7 +26,7 @@ describe('tokenize()', () => {
 		console.log(tokenizedContents);
 
 		expect(Array.isArray(tokenizedContents)).toBe(true);
-		expect(typeof tokenizedContents[0]).toBe('string');
+		expect(typeof tokenizedContents[0]).toBe('object');
 	});
 });
 
@@ -43,7 +43,7 @@ describe('tokens_to_javascript()', () => {
 
 		console.log(compiledContents);
 
-		expect(typeof compiledContents).toBe('object');
+		expect(typeof compiledContents).toBe('string');
 	});
 });
 
