@@ -12,8 +12,8 @@ const { spawn } = require('child_process');
 // -- START COMPILED CODE --
 
 // Declare variables
-let hi = `Hello`;
-let world = `world!`;
+let hi = "Hello";
+let world = "world!";
 // Output text to the console
 console.log(`${hi} ${world}`);
 console.log(`Goodbye world!`);

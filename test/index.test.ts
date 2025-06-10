@@ -9,13 +9,13 @@
 
 const fs = require('fs');
 const path = require('path');
-const { tokenize } = require('../dist/index.js');
+const { tokenize, tokenType, tokens_to_javascript, isPercentVariable, token  } = require('../dist/index.js');
 const { describe, it, expect } = require('@jest/globals');
 
 // -- END IMPORTS --
 
 describe('tokenize()', () => {
-	it('should return non-empty, trimmed lines from test.bat', () => {
+	it('should return an array', () => {
 		const filePath = path.join(__dirname, 'test.bat');
 
 		expect(fs.existsSync(filePath)).toBe(true);
@@ -29,3 +29,28 @@ describe('tokenize()', () => {
 		expect(typeof tokenizedContents[0]).toBe('string');
 	});
 });
+
+describe('tokens_to_javascript()'), () => {
+	it('should return a string'), () => {
+		const filePath = path.join(__dirname, 'test.bat');
+
+		expect(fs.existsSync(filePath)).toBe(true);
+
+		const fileContents = fs.readFileSync(filePath, 'utf8');
+
+		const compiledContents = tokens_to_javascript(tokenize(fileContents));
+
+		console.log(compiledContents);
+
+		expect(typeof compiledContents).toBe('string');
+	}
+}
+
+describe('isPercentVariable()'), () => {
+	it('should return a boolean'), () => {
+		expect(isPercentVariable('%hello%')).toBe(true);
+		expect(isPercentVariable('hello')).toBe(false);
+		expect(isPercentVariable('hello%*%')).toBe(false);
+		expect(isPercentVariable('%*%hello')).toBe(false);
+	}
+}
