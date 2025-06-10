@@ -43,7 +43,7 @@ describe('tokens_to_javascript()', () => {
 
 		console.log(compiledContents);
 
-		expect(typeof compiledContents).toBe('string');
+		expect(typeof compiledContents).toBe('object');
 	});
 });
 
