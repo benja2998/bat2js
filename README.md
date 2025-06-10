@@ -1,6 +1,7 @@
 # bat2js
 Batch to JavaScript compiler
 
+[![node.js package](https://img.shields.io/badge/node.js-package-green.svg)](https://www.npmjs.com/package/bat2js)
 [![Coverage Status](https://coveralls.io/repos/github/benja2998/bat2js/badge.svg?branch=main)](https://coveralls.io/github/benja2998/bat2js?branch=main)
 
 Currently not very functional. This is very much alpha quality software.
