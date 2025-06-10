@@ -14,3 +14,18 @@ npm install -g bat2js
 ```bash
 bat2js <input.bat>
 ```
+
+This is an example of a batch file that can be compiled to JavaScript:
+
+```batch
+@echo off
+
+set hi=Hello
+set world=world!
+
+echo %hi% %world%
+echo Goodbye world!
+
+pause
+exit
+```

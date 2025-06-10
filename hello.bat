@@ -1,7 +1,10 @@
 @echo off
 
-echo Hello, World!
-echo This is a simple batch script.
-echo This will be compiled to runnable JavaScript by bat2js.
+set hi=Hello
+set world=world!
+
+echo %hi% %world%
+echo Goodbye world!
+
 pause
 exit

@@ -131,3 +131,6 @@ dist
 
 # Distribution directory
 dist/
+
+# Coverage directory
+coverage/
